@@ -24,16 +24,6 @@ Client.prototype = {
 		this.id = id;
 		var self = this;
 
-        // var net     = require('net')
-		// var mqttCon = require('mqtt-connection')
-		// var stream  = net.createConnection(3005, 'localhost')
-		// this.socket = mqttCon(stream)
-
-		// this.socket = io.connect('https://' + host + ':' + port, {
-        // 	'force new connection': true,
-        // 	'reconnect': false
-        // });
-
 		this.socket = io.connect('http://' + host + ':' + port);
 
 		this.socket.on('connect', function() {
