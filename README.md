@@ -8,6 +8,9 @@ pomelo管理系统：
 
     $ npm install
 	
+## start
+    $ node app.js
+	
 ## config.json
 
     {
