@@ -28,3 +28,10 @@ pomelo管理系统：
 	  "password": "admin"                   
 	}
 	
+# Others
+    1. 需要在Linux下运行
+	2. Linux需要安装sysstat模块
+	3. pomelo后端在app.js中打开系统监控模块：
+		app.configure('production|development', function () {
+			app.enable('systemMonitor');
+		});
