@@ -1,6 +1,7 @@
 # pomelo_admin
+pomelo 2.2.0 更新了内部协议，rpc, admin协议均切换为mqtt。pomelo_admin_web已经不能和pomelo后端连接。这里为pomelo_admin_web增加了一个中间件，用以桥接mqtt协议的通信。 
 
-pomelo管理系统：
+主要改变有：
 1. adminweb（原pomelo_admin_web），socket.io升级（0.8.7 => 2.1.2）
 2. 加入了中间件middleadmin，以兼容pomelo后端mqtt协议
 
