@@ -8,11 +8,12 @@ pomelo管理系统：
 
     $ npm install
 	
-## start
+## Start
     $ node app.js
 	
-## config.json
-
+## Configuration 
+    /config.json
+   
     {
 	  "webServerPort": 7001,               //外部访问admin_web的端口
 
