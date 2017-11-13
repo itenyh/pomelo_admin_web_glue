@@ -6,4 +6,4 @@ pomelo管理系统：
 
 ## Installation
 
-    $ npm install promise
+    $ npm install
