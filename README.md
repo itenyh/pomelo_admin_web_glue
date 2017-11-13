@@ -31,7 +31,7 @@ pomelo管理系统：
 # Others
     1. 需要在Linux下运行
 	2. Linux需要安装sysstat模块
-	3. pomelo后端在app.js中打开系统监控模块：
-		app.configure('production|development', function () {
-			app.enable('systemMonitor');
-		});
+	3. pomelo后端需要在app.js中打开系统监控模块：
+	   app.configure('production|development', function () {
+	       app.enable('systemMonitor');
+	   });
