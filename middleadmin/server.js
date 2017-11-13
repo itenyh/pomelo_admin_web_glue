@@ -64,7 +64,6 @@ function startBridger(cb) {
             const reqId = jsonData['reqId']
 
             adminClient.request(moduleId, body, function (err, msg) {
-                console.log(JSON.stringify(msg))
                 const result = {respId: reqId, body: msg}
                 socket.emit('client', result)
             })
